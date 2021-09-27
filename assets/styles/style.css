@@ -613,6 +613,7 @@ img{
     margin-inline: auto;
     width: min(90%, 70.5rem);
     min-height: calc(100vh - 4rem);
+    position: relative;
 }
 
 .main-image-div{
@@ -627,6 +628,16 @@ img{
     right: 0;
     height: 548px;
     clip-path: circle(100% at 100% 0);
+}
+
+.div_circle_mobile{
+  background-color: #8f7e4f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 337.48px;
+  clip-path: circle(98.8% at 99% 99%);
 }
 
 .main-image-div img{
@@ -662,6 +673,10 @@ img{
 	.bg-primary {
 		min-height: calc(100vh - 4rem);
 		margin-top: 4rem;
+	}
+
+  .div_circle_mobile{
+		display: none;
 	}
 }
 
